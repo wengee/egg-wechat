@@ -1,0 +1,30 @@
+{
+  "name": "egg-wechat",
+  "version": "0.3.0",
+  "description": "Wechat API",
+  "repository": {
+    "type": "git",
+    "url": "github.com/wengee/egg-wechat"
+  },
+  "keywords": [
+    "Wechat",
+    "Weixin",
+    "eggjs"
+  ],
+  "author": "Fung Wing Kit",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "lodash": "^4.17.4",
+    "query-string": "^4.3.2",
+    "urllib": "^2.21.0",
+    "wechat-crypto": "0.0.2",
+    "xml2js": "^0.4.17"
+  },
+  "eggPlugin": {
+    "name": "wechat",
+    "dependencies": [
+      "redis"
+    ]
+  }
+}
